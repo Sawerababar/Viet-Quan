@@ -1,0 +1,6 @@
+{
+  "name": "Viet Quan",
+  "description": "Authentic Vietnamese & Southeast Asian Cuisine in Bicton WA. Traditional Phở, Crispy Chicken Rice, Laksa, and fresh street food specialties at Hawaiian's Melville Shopping Centre.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

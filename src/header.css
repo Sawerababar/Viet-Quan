@@ -1,0 +1,69 @@
+/* Reference-inspired header and hero, in Việt Quán's jade and gold palette. */
+/* Explicitly scoped colours avoid pale text on the original cream header. */
+.header.site-header{background:#f7f4eb;color:#163f32;border-bottom:1px solid #d9ded2}
+.header.site-header .brand-wordmark,.header.site-header .nav a,.header.site-header .bag-btn,.header.site-header .menu-toggle{color:#163f32}
+.header.site-header .brand-wordmark small{color:#435d4a}
+.header.site-header .bag-count{color:#163f32;border-color:#7b907c}
+.header.site-header .nav-book{background:#163f32;color:#ffffff;border-color:#163f32}
+.header.site-header .nav-book:hover{background:#28553e;color:#ffffff}
+.header.site-header .nav a:hover{color:#715418}
+.header.site-header .nav.expanded{background:#f7f4eb;color:#163f32}
+.reference-hero .hero-colour-circle{position:absolute;inset:2%;border-radius:50%;background:#d9ad4e;box-shadow:0 0 0 1px #e8c86b40}
+.reference-hero .hero-visual .hero-photo{width:82%;height:82%;object-position:center;transform:none;border:5px solid #f7f0dc;box-shadow:0 18px 35px #092a2250}
+.reference-hero .hero-copy>p.eyebrow{color:#edc66c;font-size:13px;letter-spacing:1.2px;max-width:none}
+.announcement{background:#0c2f23;color:#c5cdb6;border-bottom:1px solid #ffffff0c}
+.header{background:#103b2b;color:#f8f3df;border-bottom:1px solid #ffffff0d;height:100px}
+.header .nav{margin-left:auto;margin-right:42px}
+.header .nav a{position:relative;padding:12px 0}
+.header .nav a:first-child::after{content:'';position:absolute;bottom:3px;left:0;right:0;height:2px;background:#d9ad4e}
+.header .nav a:hover{color:#e3bd63}
+.header .brand-wordmark{font-weight:700;color:#f8f3df}
+.header .brand-wordmark small{color:#c5cfb9}
+.header .bag-count{border-color:#70866c;color:#f8f3df}
+.header .nav-book{background:transparent;border:1px solid #c4a256;color:#eed598}
+.header .nav-book:hover{background:#d3ad4f;color:#163d2c}
+.reference-hero{position:relative;isolation:isolate;display:grid;grid-template-columns:1.04fr 1fr;grid-template-rows:1fr auto;min-height:620px;max-width:none;padding:35px 7% 26px;background:radial-gradient(ellipse at 73% 38%,#26513a 0,#123d2c 42%,#103b2b 70%);color:#f8f3df;overflow:hidden;gap:0 25px}
+.reference-hero .hero-copy{padding:45px 0 40px;position:relative;z-index:2;justify-content:center}
+.reference-hero .eyebrow{color:#e0b34f;font-size:16px;font-weight:800;letter-spacing:1.8px;margin-bottom:15px}
+.reference-hero h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(58px,6.8vw,110px);font-weight:700;letter-spacing:-.04em;line-height:1.08;white-space:nowrap;color:#faf6e8;text-shadow:2px 3px 0 #0c2e2260}
+.reference-hero h1 em{display:block;font-family:'Playfair Display',Georgia,serif;color:#dfb753;font-size:.75em;font-weight:400;letter-spacing:-.045em;line-height:1.35;margin-top:3px}
+.reference-hero .hero-copy>p{color:#c5d0bd;max-width:370px;font-size:13px;line-height:1.9;margin-top:20px}
+.reference-hero .hero-actions{gap:22px;margin-top:29px;flex-wrap:wrap}
+.reference-hero .hero-actions .button{background:#d9ad4e;color:#143424;border:1px solid #e5bc60;padding:17px 24px;gap:20px;font-size:12px;box-shadow:0 8px 24px #081f2520}
+.reference-hero .hero-actions .button:hover{background:#edc673;transform:translateY(-2px)}
+.hero-price{display:flex;align-items:center;gap:9px;color:#f7f0d9;font-size:11px}
+.hero-price strong{font-size:28px;letter-spacing:-1px;font-weight:700}
+.hero-price small{font-size:9px;color:#c4cfb9;max-width:70px;line-height:1.5}
+.reference-hero .hero-visual{height:auto;min-height:450px;align-self:center;aspect-ratio:1;position:relative;overflow:visible;margin:0;display:grid;place-items:center;max-width:560px;width:100%}
+.hero-brush{position:absolute;inset:0;width:100%;height:100%;color:#c7a14a;transform:rotate(-14deg)}
+.reference-hero .hero-photo{position:relative;width:79%;height:79%;border-radius:50%;object-fit:cover;object-position:49% 63%;transform:rotate(-9deg);border:7px solid #e6d9b5;box-shadow:15px 26px 34px #071e2870}
+.hero-chopsticks{position:absolute;right:13%;top:8%;width:5px;height:88%;background:linear-gradient(90deg,#463c25,#c3a270,#433c27);transform:rotate(24deg);border-radius:4px;box-shadow:7px 4px 10px #0005}
+.hero-chopsticks::after{content:'';position:absolute;left:16px;width:5px;height:100%;border-radius:4px;background:inherit;transform:rotate(2deg);transform-origin:bottom}
+.hero-dish-caption{position:absolute;bottom:0;right:8%;font-size:9px;letter-spacing:1.8px;color:#ead295;text-align:right}
+.hero-bottom{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:25px;padding-top:23px;margin-top:6px;border-top:1px solid #ffffff16;font-size:10px}
+.hero-bottom .hero-rating{display:flex;gap:12px;align-items:center;color:#ebedda}
+.hero-bottom .stars{color:#ddba60;font-size:11px;letter-spacing:2px}
+.hero-bottom .live-status{font-size:10px;color:#cbd4c2;align-items:center}
+.hero-bottom .status-dot{margin:0;background:#d0ab50}
+.hero-bottom .status-dot.open{background:#8fbd77}
+.hero-scroll{display:flex;gap:14px;align-items:center;font-size:8px;letter-spacing:1.8px;color:#e4d6ab}
+.scroll-track{width:16px;height:25px;border:1px solid #caaa59;border-radius:10px;position:relative}
+.scroll-track::after{content:'';position:absolute;top:5px;left:6px;width:2px;height:7px;background:#d9b65c;border-radius:2px}
+@media(min-width:1600px){.reference-hero{padding-left:max(7%,calc((100vw - 1400px)/2));padding-right:max(7%,calc((100vw - 1400px)/2))}}
+@media(max-width:1050px){.header .nav{margin-right:25px}.reference-hero{padding:25px 5.4%;min-height:540px;gap:0 20px}.reference-hero .hero-visual{min-height:350px}.reference-hero .eyebrow{font-size:12px}.reference-hero h1{font-size:clamp(48px,6.7vw,72px)}.hero-bottom .live-status{font-size:8px}.hero-price strong{font-size:25px}}
+@media(max-width:760px){.header{height:80px}.header .nav{background:#103b2b;margin:0;padding:20px 25px}.header .nav a:first-child::after{right:auto;width:35px}.reference-hero{display:grid;grid-template-columns:1fr;grid-template-rows:auto auto auto;min-height:0;padding:30px 24px 26px;gap:0}.reference-hero .hero-copy{padding:12px 0 18px}.reference-hero .eyebrow{font-size:11px;letter-spacing:1.3px;margin-bottom:12px}.reference-hero h1{font-size:clamp(44px,11.5vw,76px)}.reference-hero h1 em{font-size:.84em}.reference-hero .hero-copy>p{font-size:12px;max-width:340px;margin-top:15px}.reference-hero .hero-actions{gap:16px;margin-top:23px;flex-wrap:nowrap}.reference-hero .hero-actions .button{padding:14px 17px;font-size:11px;gap:12px}.hero-price{gap:6px}.hero-price strong{font-size:24px}.hero-price small{font-size:8px}.reference-hero .hero-visual{min-height:0;max-width:400px;justify-self:center;margin:5px 0 19px}.hero-dish-caption{font-size:7px;bottom:-5px}.hero-bottom{padding-top:19px;margin-top:5px;gap:17px;flex-wrap:wrap}.hero-bottom .hero-rating{font-size:9px;gap:9px}.hero-bottom .live-status{font-size:9px}.hero-scroll{display:none}}
+@media(max-width:360px){.reference-hero{padding-left:20px;padding-right:20px}.reference-hero .hero-actions{gap:12px}.hero-price strong{font-size:21px}.hero-price small{max-width:43px}.reference-hero .hero-actions .button{padding:14px}}
+/* Keep the artwork square independently of the portrait image's intrinsic height. */
+.reference-hero .hero-visual{display:block;min-height:0;height:auto;aspect-ratio:1 / 1;max-width:520px;margin:20px 0 42px;justify-self:center}
+.reference-hero .hero-colour-circle{inset:0;aspect-ratio:1 / 1}
+.reference-hero .hero-visual .hero-photo{position:absolute;inset:7%;width:86%;height:86%;min-height:0;max-height:86%;border-radius:50%;object-fit:cover;object-position:center;transform:none;border:3px solid #f7f0dc}
+.reference-hero .hero-dish-caption{top:calc(100% + 16px);bottom:auto;left:0;right:0;text-align:center;line-height:1.5}
+@media(max-width:760px){.reference-hero .hero-visual{max-width:360px;margin:20px 0 42px}}
+
+/* Shared typography across the header, content and interactive controls. */
+:root{--font-heading:'Playfair Display',Georgia,serif;--font-body:'Plus Jakarta Sans',sans-serif}
+body,input,select,textarea,button{font-family:var(--font-body)}
+h1,h2,.header .brand-wordmark,.story-signoff,.review-score>span,.visit-image-caption strong,.empty-state h3{font-family:var(--font-heading)}
+.reference-hero h1,.reference-hero h1 em{font-family:var(--font-heading);text-shadow:none}
+.reference-hero h1 em{font-style:normal;font-weight:500;font-size:.7em;letter-spacing:-.035em}
+.reference-hero .hero-photo{filter:none}
